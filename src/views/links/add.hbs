@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 ">
+            <div class="card mt-3">
+                <div class="card-body">
+                    <h5 class="card-title mt-3 text-secondary text-center">Add link</h5>
+                    <form action="/links/add" method="POST">
+                        <div class="form-group mt-4">
+                            <input type="text" class="form-control" name="title" placeholder="Title" autofocus>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="url" class="form-control" name="url" placeholder="Url">
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" rows="4" maxlength="150" name="description"
+                                placeholder="Description"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 mt-4">Save link</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
