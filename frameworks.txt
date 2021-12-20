@@ -1,0 +1,12 @@
+express:                backend
+express-handlebars:     Motor de plantillas
+express-session:        Guardar sesiones
+mysql:                  bd
+express-mysql-session:  Guardar sesiones dentro de la bd
+morga:                  Mostrar las peticiones GET/POST
+bcryptjs:               Cifrar contraseñas
+passport:               modulo de autenticacion
+passport-local:         trabajar de manera local
+timeago.js:             Convertir fechas en tiempo transcurrido
+connect-flash:          enviar mensajes entre vistas
+express-validator:      Validar los datos que envia el usuario
